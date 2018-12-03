@@ -4,14 +4,31 @@ var totalDistanceList = new Array(100);
 var dist = new Array;
 
 
-var nodes= [{name: "A", index:0}, 
-            {name: "B", index:1}, 
-            {name: "C", index:2}
+var nodes= [{name: "N", index:0}, 
+            {name: "F", index:1}, 
+            {name: "K", index:2},
+            {name: "L", index:3}, 
+            {name: "E", index:4}, 
+            {name: "G", index:5},
+            {name: "H", index:6}
         ];
 
 var links= [
-            {source: 0, target: 2, weight: 2},
-            {source: 1, target: 0, weight: 2}
+            {source: 0, target: 1, weight: 47},
+            {source: 0, target: 2, weight: 60},
+            {source: 1, target: 2, weight: 70},
+            {source: 1, target: 4, weight: 10},            
+            {source: 1, target: 3, weight: 10},
+            {source: 1, target: 6, weight: 30},
+            {source: 2, target: 4, weight: 10},
+            {source: 2, target: 6, weight: 73},
+            {source: 2, target: 5, weight: 90},
+            {source: 3, target: 4, weight: 5 },
+            {source: 3, target: 6, weight: 40},
+            {source: 4, target: 6, weight: 60},
+            {source: 4, target: 5, weight: 40},
+            {source: 4, target: 5, weight: 40},
+            {source: 5, target: 6, weight: 80}
         ];
 
 
